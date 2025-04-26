@@ -260,8 +260,6 @@ def existsList : Σ x : Type, List x :=
 def existsListProd : (x : Type) × List x :=
   ⟨Nat, [1]⟩
 
-def main : IO Unit := IO.println "Hello, world!"
-
 def woodlandCritters : List String :=
   ["hedgehog", "deer", "snail"]
 
